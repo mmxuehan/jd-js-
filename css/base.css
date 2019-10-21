@@ -1,0 +1,26 @@
+html,body,ul,ol,li,p,div,form,input{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 14px;
+}
+ul,ol{
+	list-style: none;
+}
+a,a:hover{
+	text-decoration: none;
+	color: #ccc;
+	-webkit-tap-highlight-color: transparent;
+}
+em,i{
+	font-style: normal;
+}
+input{
+	outline: none;
+	border: none;
+}
+.clearfix{
+	content: "";
+	display: table;
+	clear: both;
+}
